@@ -1,0 +1,74 @@
+/* Be sure to debug code correctly */
+
+body {
+  font-size: 16pt;
+}
+
+p {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 850px;
+}
+
+#tablist {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#tablist li {
+  list-style: none;
+  display: inline;
+}
+
+#tablist li a {
+  color: black; /* standard text color */
+  padding: 5px 9px; /* sets the space from top edge screen and so forth */
+  text-decoration: none;
+  background-color:  #ff9933; /* color around text */
+}
+
+#tablist li a:hover {
+  color: black; /* Text color when hover*/
+  background-color:  #ff8c1a; /* color around text when hover */
+}
+
+#content {
+  position: absolute;
+  text-align: center;
+  top: 400px;
+  left: 450px;
+  width: 1000px;
+  height: 350px;
+  background-color:  #ffbf80;
+  border: 1px solid black;
+  padding: 5px;
+  
+}
+
+li {list-style-position: inside;}
+
+/* Below is FOOTER */
+
+
+footer {
+  position: absolute; /* auto adds width for border-top line */
+  top: 800px;
+  width: 1880px;
+  font-size: 22px;
+  border-top: 2px solid #000;
+  padding: 5px;
+}
+
+#email {
+  position: absolute;
+  top: 800px;
+  left: 80px;
+  padding: 50px;
+}
+
+#email a:link {color: blue;}
+#email a:visited {color: orange;}
+#email a:hover {color: #ff9933;}
+#email a:active {color: red;}
